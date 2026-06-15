@@ -158,12 +158,6 @@ abstract class AppLocalizations {
   /// **'첫 문장을 낚아보세요'**
   String get homeEmptyAction;
 
-  /// No description provided for @homeEmptyHelpTitle.
-  ///
-  /// In ko, this message translates to:
-  /// **'도움이 필요하신가요?'**
-  String get homeEmptyHelpTitle;
-
   /// No description provided for @homeEmptyTipTitle.
   ///
   /// In ko, this message translates to:

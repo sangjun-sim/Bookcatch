@@ -124,29 +124,9 @@ class _EmptyHelpSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context);
-    final theme = Theme.of(context);
-
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Row(
-          children: [
-            const Icon(
-              Icons.help_outline,
-              color: BookcatchColors.outline,
-              size: 22,
-            ),
-            const SizedBox(width: 8),
-            Text(
-              l10n.homeEmptyHelpTitle,
-              style: theme.textTheme.headlineSmall?.copyWith(
-                color: BookcatchColors.textPrimary,
-              ),
-            ),
-          ],
-        ),
-        const SizedBox(height: 16),
         DecoratedBox(
           decoration: BoxDecoration(
             color: BookcatchColors.surfaceContainerLowest,

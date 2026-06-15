@@ -44,9 +44,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get homeEmptyAction => 'Catch your first sentence';
 
   @override
-  String get homeEmptyHelpTitle => 'Need a hand?';
-
-  @override
   String get homeEmptyTipTitle => 'Capture faster with OCR';
 
   @override

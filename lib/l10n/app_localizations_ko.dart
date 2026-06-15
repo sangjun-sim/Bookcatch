@@ -43,9 +43,6 @@ class AppLocalizationsKo extends AppLocalizations {
   String get homeEmptyAction => '첫 문장을 낚아보세요';
 
   @override
-  String get homeEmptyHelpTitle => '도움이 필요하신가요?';
-
-  @override
   String get homeEmptyTipTitle => 'OCR로 빠르게 기록하기';
 
   @override
