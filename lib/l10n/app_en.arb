@@ -1,0 +1,376 @@
+{
+  "@@locale": "en",
+  "appName": "Bookcatch",
+  "homeTitle": "Today's Quote",
+  "homeDateLabel": "{date}",
+  "@homeDateLabel": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreeting": "Hello, {readerName}",
+  "@homeGreeting": {
+    "placeholders": {
+      "readerName": {
+        "type": "String"
+      }
+    }
+  },
+  "homeDefaultReaderName": "dear reader",
+  "todayUnderlineTitle": "Today's Underline",
+  "recentQuotesTitle": "Recent Saves",
+  "homeEmptyTitle": "No saved sentences yet",
+  "homeEmptyBody": "Keep one line from a book that stayed with you and make it your own.",
+  "homeEmptyAction": "Catch your first sentence",
+  "homeEmptyHelpTitle": "Need a hand?",
+  "homeEmptyTipTitle": "Capture faster with OCR",
+  "homeEmptyTipBody": "Add a photo. Select only the sentence area, then review and save the OCR result.",
+  "homeEmptyFooterQuote": "\"Everything unrecorded is forgotten.\"",
+  "reminderStatusTitle": "Reflection Reminder",
+  "weeklyReportTitle": "This Week's Reflection Report",
+  "viewAllAction": "View all",
+  "cancelAction": "Cancel",
+  "shareAction": "Share",
+  "shareCardAction": "Share card",
+  "shareAttribution": "Shared from Bookcatch.",
+  "transcribeAction": "Transcribe",
+  "captureQuoteAction": "Capture quote",
+  "settingsAction": "Settings",
+  "settingsTitle": "Settings",
+  "libraryTitle": "Library",
+  "librarySearchHint": "Search quotes, books, keywords",
+  "libraryFilterAll": "All",
+  "libraryFilterByBook": "By book",
+  "libraryFilterByEmotion": "By emotion",
+  "libraryFilterBySituation": "By situation",
+  "libraryFilterFavorites": "Favorites",
+  "libraryFoldersTitle": "Folders",
+  "libraryFolderAll": "All",
+  "libraryFolderUncategorized": "Unfiled",
+  "libraryCreateFolderAction": "Create folder",
+  "libraryCreateFolderTitle": "Create folder",
+  "libraryFolderNameLabel": "Folder name",
+  "libraryFolderNameHint": "For example, Read again",
+  "libraryFolderCreateConfirm": "Create",
+  "libraryFolderCreateFailure": "Could not create folder.",
+  "libraryMoveToFolderAction": "Move to folder",
+  "libraryMoveToFolderTitle": "Move to folder",
+  "libraryFolderMoveFailure": "Could not change folder.",
+  "libraryFolderDeleteAction": "Delete folder",
+  "libraryFolderDeleteTitle": "Delete this folder?",
+  "libraryFolderDeleteMessage": "The {folderName} folder and {count} quotes inside it will be deleted.",
+  "@libraryFolderDeleteMessage": {
+    "placeholders": {
+      "folderName": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libraryFolderDeleteConfirm": "Delete",
+  "libraryFolderDeleteFailure": "Could not delete folder.",
+  "libraryFolderEmptyTitle": "This folder is empty",
+  "libraryFolderEmptyBody": "Use quote options on a card to move it into this folder.",
+  "libraryRecordedAt": "Saved {date}",
+  "@libraryRecordedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryQuoteReminderTime": "Reminder {time}",
+  "@libraryQuoteReminderTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryFavoriteAddAction": "Add to favorites",
+  "libraryFavoriteRemoveAction": "Remove from favorites",
+  "libraryQuoteMoreActions": "Quote options",
+  "libraryQuoteEditAction": "Edit",
+  "libraryQuoteEditTitle": "Edit quote",
+  "libraryQuoteEditConfirm": "Save",
+  "libraryQuoteEditInProgress": "Updating quote.",
+  "libraryQuoteEditHelper": "Changes are saved to your library and sync queue.",
+  "libraryQuoteEditSuccess": "Quote updated.",
+  "libraryQuoteEditFailure": "Could not update quote.",
+  "libraryQuoteReminderAction": "Reminder settings",
+  "libraryQuoteDeleteAction": "Delete",
+  "libraryQuoteDeleteTitle": "Delete this quote?",
+  "libraryQuoteDeleteMessage": "The quote will disappear from Home and Library.",
+  "libraryQuoteDeleteConfirm": "Delete",
+  "libraryQuoteDeleteSuccess": "Quote deleted.",
+  "libraryQuoteDeleteFailure": "Could not delete quote.",
+  "libraryQuoteExportMarkdownAction": "Export Markdown",
+  "libraryEmptySearchHint": "Search saved sentences",
+  "libraryEmptyTitle": "Your sentence archive is empty",
+  "libraryEmptyBody": "Save a passage that moved you\nand build your own reflection archive",
+  "libraryEmptyAction": "Save a sentence",
+  "exportMarkdownSuccessMessage": "Markdown file is ready.",
+  "exportMarkdownFailureMessage": "Could not export Markdown.",
+  "exportMarkdownMissingSource": "Source not entered",
+  "exportMarkdownMemoHeading": "Memo",
+  "settingsNotificationSection": "Reminders",
+  "settingsNotificationSchedule": "All reminder time and frequency",
+  "settingsDataSection": "Data",
+  "settingsSaveOriginalPhotos": "Save original photos",
+  "settingsInfoSection": "Information",
+  "settingsCopyrightGuide": "Copyright and sharing guide",
+  "settingsAppVersion": "App version",
+  "settingsFooter": "Bookcatch keeps your reflections carefully.\nHave a quiet day with your books.",
+  "homeTab": "Home",
+  "recordTab": "Record",
+  "libraryTab": "Library",
+  "settingsTab": "Settings",
+  "recordTitle": "Record Quote",
+  "recordIntroTitle": "How would you like to record it?",
+  "recordIntroBody": "Type the sentence that stopped you, or bring it in from a photo.",
+  "recordEmptyTitle": "Today's reflection\nis waiting",
+  "recordEmptyBody": "There are no saved sentences yet,\nso reflection cannot begin.",
+  "recordEmptyAction": "Go save a sentence",
+  "recordEmptyHelper": "Capture a sentence that stays with you while reading",
+  "recordImportPhotoAction": "Add from photo",
+  "recordImportPhotoCamera": "Take a photo",
+  "recordImportPhotoGallery": "Choose from library",
+  "recordImportPhotoInProgress": "Reading the sentence from the photo",
+  "recordImportPhotoNoText": "No sentence was found in the photo.",
+  "recordImportPhotoFailure": "Could not import a sentence from the photo.",
+  "recordImportPhotoOverwriteTitle": "Replace the current sentence?",
+  "recordImportPhotoOverwriteMessage": "The sentence you typed will be replaced with text read from the photo.",
+  "recordImportPhotoOverwriteConfirm": "Replace",
+  "recordPhotoCropTitle": "Select sentence area",
+  "recordPhotoCropReset": "Reset area",
+  "recordPhotoCropUseSelection": "Use selected area",
+  "recordPhotoCropUseFullImage": "Use full photo",
+  "recordBookQuestion": "Which book is this quote from?",
+  "recordBookPlaceholder": "Choose or type a book",
+  "recordRecentBookLabel": "(recent)",
+  "recordAuthorLabel": "Author",
+  "recordAuthorPlaceholder": "Type the author's name",
+  "recordEditQuoteLabel": "Edit quote",
+  "recordQuotePlaceholder": "Type the sentence you want to remember...",
+  "recordPageLabel": "Page",
+  "recordEmotionLabel": "Mood",
+  "recordCustomEmotionPlaceholder": "Add a mood label",
+  "recordCustomEmotionAddAction": "Add mood",
+  "recordCustomEmotionDuplicate": "This mood is already added.",
+  "recordMemoLabel": "Memo",
+  "recordMemoPlaceholder": "Add why this sentence stopped you.",
+  "recordSaveAction": "Save quote",
+  "recordSaveHelper": "Your quote will be kept safely in the library.",
+  "recordSaveValidationEmptyQuote": "Type a quote before saving.",
+  "recordSaveInProgress": "Saving quote.",
+  "recordSaveLocalOnly": "Quote saved on this device.",
+  "recordSaveSyncDeferred": "Quote saved. Sync will continue when connected.",
+  "recordSaveSynced": "Quote saved safely.",
+  "recordSaveSnack": "Quote saved safely.",
+  "quoteSourceWithPage": "{author}, {bookTitle} {page}",
+  "@quoteSourceWithPage": {
+    "placeholders": {
+      "author": {
+        "type": "String"
+      },
+      "bookTitle": {
+        "type": "String"
+      },
+      "page": {
+        "type": "String"
+      }
+    }
+  },
+  "quoteSource": "{author}, {bookTitle}",
+  "@quoteSource": {
+    "placeholders": {
+      "author": {
+        "type": "String"
+      },
+      "bookTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "quoteSourceBookOnly": "{bookTitle}",
+  "@quoteSourceBookOnly": {
+    "placeholders": {
+      "bookTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "quoteSourceBookWithPage": "{bookTitle} {page}",
+  "@quoteSourceBookWithPage": {
+    "placeholders": {
+      "bookTitle": {
+        "type": "String"
+      },
+      "page": {
+        "type": "String"
+      }
+    }
+  },
+  "quoteSourceAuthorWithPage": "{author} {page}",
+  "@quoteSourceAuthorWithPage": {
+    "placeholders": {
+      "author": {
+        "type": "String"
+      },
+      "page": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderStatusOn": "{count, plural, =0{No {label} quotes are scheduled for {time}} one{{time}, 1 {label} quote will return} other{{time}, {count} {label} quotes will return}}",
+  "@reminderStatusOn": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderStatusOff": "Reflection reminders are off",
+  "reminderOccurrenceToday": "Today {time}",
+  "@reminderOccurrenceToday": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderOccurrenceTomorrow": "Tomorrow {time}",
+  "@reminderOccurrenceTomorrow": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderOccurrenceThisWeek": "This {weekday} {time}",
+  "@reminderOccurrenceThisWeek": {
+    "placeholders": {
+      "weekday": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderSettingsTitle": "Reflection reminder settings",
+  "reminderEnableSwitch": "Reflection reminder",
+  "reminderTimeLabel": "Time",
+  "reminderWeekdaysLabel": "Weekdays",
+  "reminderRepeatLabel": "Repeat",
+  "reminderLabelRuleLabel": "Label",
+  "reminderRepeatOnce": "Once",
+  "reminderRepeatWeekly": "Weekly",
+  "reminderRepeatOnceDescription": "Sends one notification for each selected weekday.",
+  "reminderLabelAll": "All",
+  "reminderSaveAction": "Save",
+  "reminderPermissionDenied": "Notifications are disabled. Turn them on in device settings and try again.",
+  "reminderEmptyWeekdays": "Select at least one weekday for reminders.",
+  "reminderScheduleFailed": "Could not save the reminder. Try again later.",
+  "reminderSettingsSaved": "Reflection reminder saved.",
+  "reminderNotificationTitle": "A saved quote is waiting",
+  "reminderNotificationBody": "Open Bookcatch and revisit today's quote.",
+  "quoteReminderSettingsTitle": "Quote reminder settings",
+  "quoteReminderEnableSwitch": "Quote reminder",
+  "quoteReminderTimeLabel": "Time",
+  "quoteReminderWeekdaysLabel": "Weekdays",
+  "quoteReminderRepeatLabel": "Repeat",
+  "quoteReminderRepeatOnce": "Once",
+  "quoteReminderRepeatWeekly": "Weekly",
+  "quoteReminderRepeatOnceDescription": "Sends this quote once for each selected weekday.",
+  "quoteReminderSaveAction": "Save",
+  "quoteReminderSettingsSaved": "Quote reminder saved.",
+  "quoteReminderPermissionDenied": "Notifications are disabled. Turn them on in device settings and try again.",
+  "quoteReminderEmptyWeekdays": "Select at least one weekday for reminders.",
+  "quoteReminderPendingLimitReached": "You have reached the scheduled notification limit. Reduce other quote reminders and try again.",
+  "quoteReminderScheduleFailed": "Could not save the quote reminder. Try again later.",
+  "quoteReminderNotificationTitle": "A quote is back",
+  "quoteReminderNotificationBody": "{quote}",
+  "@quoteReminderNotificationBody": {
+    "placeholders": {
+      "quote": {
+        "type": "String"
+      }
+    }
+  },
+  "recallTitle": "Recall",
+  "recallTodayReflectionTitle": "Today's Reflection",
+  "recallQuestionOneLabel": "Question 1",
+  "recallQuestionOnePrompt": "Does this quote still resonate with you?",
+  "recallQuestionOneHint": "Write what comes to mind now.",
+  "recallQuestionTwoLabel": "Question 2",
+  "recallQuestionTwoPrompt": "How is the feeling then different from now?",
+  "recallQuestionTwoHint": "Write how the feeling changed.",
+  "recallPreviousRecordsTitle": "Previous records for this quote",
+  "recallEmptyHistory": "There are no previous records for this quote yet.",
+  "recallSavedMessage": "Saved your record for this quote.",
+  "recallEmptyReflectionMessage": "Enter at least one answer before saving.",
+  "recallRecordedNow": "Just now",
+  "recallRecordedAt": "Recorded {date}",
+  "@recallRecordedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "weekdayMonday": "Mon",
+  "weekdayTuesday": "Tue",
+  "weekdayWednesday": "Wed",
+  "weekdayThursday": "Thu",
+  "weekdayFriday": "Fri",
+  "weekdaySaturday": "Sat",
+  "weekdaySunday": "Sun",
+  "weeklyReportSummary": "{count, plural, =0{No quotes captured in the last {days} days} one{You captured 1 quote in the last {days} days} other{You captured {count} quotes in the last {days} days}}",
+  "@weeklyReportSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "relativeYesterdayWithTime": "Yesterday {time}",
+  "@relativeYesterdayWithTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "relativeDaysAgo": "{days} days ago",
+  "@relativeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "labelEmotionComfort": "comfort",
+  "labelEmotionRelief": "relief",
+  "labelEmotionCalm": "calm",
+  "labelTopicInsight": "insight",
+  "labelEmotionMelancholy": "melancholy",
+  "labelEmotionJoy": "joy",
+  "labelTopicReflection": "reflection",
+  "labelTopicTravel": "travel",
+  "labelTopicPhilosophy": "philosophy",
+  "captureQuoteSnack": "The capture screen will be connected next."
+}

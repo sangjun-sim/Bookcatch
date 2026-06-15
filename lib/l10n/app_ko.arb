@@ -1,0 +1,376 @@
+{
+  "@@locale": "ko",
+  "appName": "북캐치",
+  "homeTitle": "오늘의 문장",
+  "homeDateLabel": "{date}",
+  "@homeDateLabel": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "homeGreeting": "안녕하세요, {readerName}",
+  "@homeGreeting": {
+    "placeholders": {
+      "readerName": {
+        "type": "String"
+      }
+    }
+  },
+  "homeDefaultReaderName": "독자님",
+  "todayUnderlineTitle": "오늘의 밑줄",
+  "recentQuotesTitle": "최근 기록",
+  "homeEmptyTitle": "아직 수집한 문장이 없어요",
+  "homeEmptyBody": "당신의 마음에 남은 책 속 한 줄을 기록하고 나만의 문장을 간직해보세요.",
+  "homeEmptyAction": "첫 문장을 낚아보세요",
+  "homeEmptyHelpTitle": "도움이 필요하신가요?",
+  "homeEmptyTipTitle": "OCR로 빠르게 기록하기",
+  "homeEmptyTipBody": "사진으로 가져온 뒤 문장 영역만 선택하고 OCR 결과를 확인해 저장하세요.",
+  "homeEmptyFooterQuote": "\"기록되지 않은 모든 것은 잊혀진다.\"",
+  "reminderStatusTitle": "회상 알림",
+  "weeklyReportTitle": "이번 주의 사색 리포트",
+  "viewAllAction": "모두 보기",
+  "cancelAction": "취소",
+  "shareAction": "공유하기",
+  "shareCardAction": "카드 공유",
+  "shareAttribution": "북캐치에서 공유됨.",
+  "transcribeAction": "필사하기",
+  "captureQuoteAction": "문장 잡기",
+  "settingsAction": "설정",
+  "settingsTitle": "설정",
+  "libraryTitle": "서재",
+  "librarySearchHint": "문장, 도서, 키워드 검색",
+  "libraryFilterAll": "전체",
+  "libraryFilterByBook": "도서별",
+  "libraryFilterByEmotion": "감정별",
+  "libraryFilterBySituation": "상황별",
+  "libraryFilterFavorites": "즐겨찾기",
+  "libraryFoldersTitle": "폴더",
+  "libraryFolderAll": "전체",
+  "libraryFolderUncategorized": "미분류",
+  "libraryCreateFolderAction": "폴더 만들기",
+  "libraryCreateFolderTitle": "새 폴더 만들기",
+  "libraryFolderNameLabel": "폴더 이름",
+  "libraryFolderNameHint": "예: 다시 읽기",
+  "libraryFolderCreateConfirm": "만들기",
+  "libraryFolderCreateFailure": "폴더를 만들지 못했습니다.",
+  "libraryMoveToFolderAction": "폴더로 이동",
+  "libraryMoveToFolderTitle": "이동할 폴더",
+  "libraryFolderMoveFailure": "폴더를 변경하지 못했습니다.",
+  "libraryFolderDeleteAction": "폴더 삭제",
+  "libraryFolderDeleteTitle": "폴더를 삭제할까요?",
+  "libraryFolderDeleteMessage": "{folderName} 폴더와 안의 문장 {count}개가 삭제됩니다.",
+  "@libraryFolderDeleteMessage": {
+    "placeholders": {
+      "folderName": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libraryFolderDeleteConfirm": "삭제하기",
+  "libraryFolderDeleteFailure": "폴더를 삭제하지 못했습니다.",
+  "libraryFolderEmptyTitle": "이 폴더는 비어 있습니다",
+  "libraryFolderEmptyBody": "문장 카드의 기록 옵션에서 이 폴더로 이동할 수 있습니다.",
+  "libraryRecordedAt": "기록일 {date}",
+  "@libraryRecordedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryQuoteReminderTime": "알림 시간 {time}",
+  "@libraryQuoteReminderTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "libraryFavoriteAddAction": "즐겨찾기에 추가",
+  "libraryFavoriteRemoveAction": "즐겨찾기에서 제거",
+  "libraryQuoteMoreActions": "기록 옵션",
+  "libraryQuoteEditAction": "수정",
+  "libraryQuoteEditTitle": "문장 수정",
+  "libraryQuoteEditConfirm": "저장",
+  "libraryQuoteEditInProgress": "문장을 수정하는 중입니다.",
+  "libraryQuoteEditHelper": "수정한 내용은 서재와 동기화 대기열에 반영됩니다.",
+  "libraryQuoteEditSuccess": "문장을 수정했습니다.",
+  "libraryQuoteEditFailure": "문장을 수정하지 못했습니다.",
+  "libraryQuoteReminderAction": "알림 설정",
+  "libraryQuoteDeleteAction": "삭제",
+  "libraryQuoteDeleteTitle": "기록을 삭제할까요?",
+  "libraryQuoteDeleteMessage": "삭제한 기록은 서재와 홈에서 사라집니다.",
+  "libraryQuoteDeleteConfirm": "삭제하기",
+  "libraryQuoteDeleteSuccess": "기록을 삭제했습니다.",
+  "libraryQuoteDeleteFailure": "기록을 삭제하지 못했습니다.",
+  "libraryQuoteExportMarkdownAction": "Markdown 내보내기",
+  "libraryEmptySearchHint": "보관된 문장 검색",
+  "libraryEmptyTitle": "나만의 문장 보관함이 비어 있습니다",
+  "libraryEmptyBody": "마음에 닿은 구절을 기록하고\n나만의 사색 아카이브를 만들어보세요",
+  "libraryEmptyAction": "문장 저장하기",
+  "exportMarkdownSuccessMessage": "Markdown 파일을 준비했습니다.",
+  "exportMarkdownFailureMessage": "내보내기에 실패했습니다.",
+  "exportMarkdownMissingSource": "출처 미입력",
+  "exportMarkdownMemoHeading": "메모",
+  "settingsNotificationSection": "알림 및 회상",
+  "settingsNotificationSchedule": "전체 알림 시간/빈도 설정",
+  "settingsDataSection": "데이터 관리",
+  "settingsSaveOriginalPhotos": "사진 원본 저장 여부",
+  "settingsInfoSection": "정보",
+  "settingsCopyrightGuide": "저작권/공유 안내",
+  "settingsAppVersion": "앱 버전 정보",
+  "settingsFooter": "북캐치는 당신의 모든 사색을 소중히 보관합니다.\n오늘도 책과 함께 평온한 하루 되세요.",
+  "homeTab": "홈",
+  "recordTab": "기록",
+  "libraryTab": "서재",
+  "settingsTab": "설정",
+  "recordTitle": "문장 기록",
+  "recordIntroTitle": "문장을 어떻게 기록할까요?",
+  "recordIntroBody": "책을 읽다 멈춘 문장을 바로 입력하거나, 사진에서 가져올 수 있어요.",
+  "recordEmptyTitle": "오늘의 회상이\n기다리고 있어요",
+  "recordEmptyBody": "아직 저장된 문장이 없어\n회상을 시작할 수 없습니다.",
+  "recordEmptyAction": "문장 저장하러 가기",
+  "recordEmptyHelper": "독서 중 마음에 드는 문장을 캡처해보세요",
+  "recordImportPhotoAction": "사진으로 가져오기",
+  "recordImportPhotoCamera": "카메라로 촬영",
+  "recordImportPhotoGallery": "사진 보관함에서 선택",
+  "recordImportPhotoInProgress": "사진에서 문장을 읽는 중입니다",
+  "recordImportPhotoNoText": "사진에서 문장을 찾지 못했습니다.",
+  "recordImportPhotoFailure": "사진에서 문장을 가져오지 못했습니다.",
+  "recordImportPhotoOverwriteTitle": "기존 문장을 바꿀까요?",
+  "recordImportPhotoOverwriteMessage": "현재 입력한 문장을 사진에서 읽은 텍스트로 바꿉니다.",
+  "recordImportPhotoOverwriteConfirm": "바꾸기",
+  "recordPhotoCropTitle": "문장 영역 선택",
+  "recordPhotoCropReset": "영역 다시 맞추기",
+  "recordPhotoCropUseSelection": "선택 영역 가져오기",
+  "recordPhotoCropUseFullImage": "전체 사진 사용",
+  "recordBookQuestion": "어떤 책의 문장인가요?",
+  "recordBookPlaceholder": "책을 선택하거나 입력하세요",
+  "recordRecentBookLabel": "(최근 기록)",
+  "recordAuthorLabel": "저자",
+  "recordAuthorPlaceholder": "저자 이름을 입력하세요",
+  "recordEditQuoteLabel": "문장 편집",
+  "recordQuotePlaceholder": "기억하고 싶은 문장을 입력하세요...",
+  "recordPageLabel": "페이지",
+  "recordEmotionLabel": "감정 기록",
+  "recordCustomEmotionPlaceholder": "감정 라벨 추가",
+  "recordCustomEmotionAddAction": "감정 추가",
+  "recordCustomEmotionDuplicate": "이미 추가된 감정입니다.",
+  "recordMemoLabel": "메모",
+  "recordMemoPlaceholder": "이 문장에 멈춘 이유를 적어보세요.",
+  "recordSaveAction": "문장 보관하기",
+  "recordSaveHelper": "문장이 안전하게 서재에 보관됩니다.",
+  "recordSaveValidationEmptyQuote": "보관할 문장을 먼저 입력해주세요.",
+  "recordSaveInProgress": "문장을 보관하는 중입니다.",
+  "recordSaveLocalOnly": "문장을 이 기기에 보관했습니다.",
+  "recordSaveSyncDeferred": "문장을 보관했습니다. 동기화는 연결되면 이어집니다.",
+  "recordSaveSynced": "문장을 안전하게 보관했습니다.",
+  "recordSaveSnack": "문장이 안전하게 보관되었습니다.",
+  "quoteSourceWithPage": "{author}, 『{bookTitle}』 {page}",
+  "@quoteSourceWithPage": {
+    "placeholders": {
+      "author": {
+        "type": "String"
+      },
+      "bookTitle": {
+        "type": "String"
+      },
+      "page": {
+        "type": "String"
+      }
+    }
+  },
+  "quoteSource": "{author}, 『{bookTitle}』",
+  "@quoteSource": {
+    "placeholders": {
+      "author": {
+        "type": "String"
+      },
+      "bookTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "quoteSourceBookOnly": "『{bookTitle}』",
+  "@quoteSourceBookOnly": {
+    "placeholders": {
+      "bookTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "quoteSourceBookWithPage": "『{bookTitle}』 {page}",
+  "@quoteSourceBookWithPage": {
+    "placeholders": {
+      "bookTitle": {
+        "type": "String"
+      },
+      "page": {
+        "type": "String"
+      }
+    }
+  },
+  "quoteSourceAuthorWithPage": "{author} · {page}",
+  "@quoteSourceAuthorWithPage": {
+    "placeholders": {
+      "author": {
+        "type": "String"
+      },
+      "page": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderStatusOn": "{count, plural, =0{{time}에 예정된 {label} 문장이 없습니다} other{{time}, {label} 문장 {count}개가 찾아옵니다}}",
+  "@reminderStatusOn": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderStatusOff": "회상 알림이 꺼져 있어요",
+  "reminderOccurrenceToday": "오늘 {time}",
+  "@reminderOccurrenceToday": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderOccurrenceTomorrow": "내일 {time}",
+  "@reminderOccurrenceTomorrow": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderOccurrenceThisWeek": "이번 주 {weekday} {time}",
+  "@reminderOccurrenceThisWeek": {
+    "placeholders": {
+      "weekday": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderSettingsTitle": "회상 알림 설정",
+  "reminderEnableSwitch": "회상 알림",
+  "reminderTimeLabel": "시간",
+  "reminderWeekdaysLabel": "요일",
+  "reminderRepeatLabel": "반복",
+  "reminderLabelRuleLabel": "라벨",
+  "reminderRepeatOnce": "한 번만",
+  "reminderRepeatWeekly": "매주 반복",
+  "reminderRepeatOnceDescription": "선택한 각 요일에 한 번씩 알림을 보냅니다.",
+  "reminderLabelAll": "전체",
+  "reminderSaveAction": "저장",
+  "reminderPermissionDenied": "알림 권한이 꺼져 있어요. 기기 설정에서 권한을 켠 뒤 다시 시도해주세요.",
+  "reminderEmptyWeekdays": "알림을 받을 요일을 하나 이상 선택해주세요.",
+  "reminderScheduleFailed": "알림을 저장하지 못했습니다. 잠시 뒤 다시 시도해주세요.",
+  "reminderSettingsSaved": "회상 알림을 저장했습니다.",
+  "reminderNotificationTitle": "저장한 문장이 기다려요",
+  "reminderNotificationBody": "북캐치에서 오늘의 문장을 다시 떠올려보세요.",
+  "quoteReminderSettingsTitle": "문장 알림 설정",
+  "quoteReminderEnableSwitch": "문장 알림",
+  "quoteReminderTimeLabel": "시간",
+  "quoteReminderWeekdaysLabel": "요일",
+  "quoteReminderRepeatLabel": "반복",
+  "quoteReminderRepeatOnce": "한 번만",
+  "quoteReminderRepeatWeekly": "매주 반복",
+  "quoteReminderRepeatOnceDescription": "선택한 각 요일에 한 번씩 이 문장을 알려줍니다.",
+  "quoteReminderSaveAction": "저장",
+  "quoteReminderSettingsSaved": "문장 알림을 저장했습니다.",
+  "quoteReminderPermissionDenied": "알림 권한이 꺼져 있어요. 기기 설정에서 권한을 켠 뒤 다시 시도해주세요.",
+  "quoteReminderEmptyWeekdays": "알림을 받을 요일을 하나 이상 선택해주세요.",
+  "quoteReminderPendingLimitReached": "예약 가능한 알림 수를 초과했습니다. 다른 문장 알림을 줄인 뒤 다시 시도해주세요.",
+  "quoteReminderScheduleFailed": "문장 알림을 저장하지 못했습니다. 잠시 뒤 다시 시도해주세요.",
+  "quoteReminderNotificationTitle": "문장이 다시 찾아왔어요",
+  "quoteReminderNotificationBody": "{quote}",
+  "@quoteReminderNotificationBody": {
+    "placeholders": {
+      "quote": {
+        "type": "String"
+      }
+    }
+  },
+  "recallTitle": "회상",
+  "recallTodayReflectionTitle": "오늘의 사색",
+  "recallQuestionOneLabel": "질문 1",
+  "recallQuestionOnePrompt": "이 문장이 여전히 당신의 마음속에 울림을 주나요?",
+  "recallQuestionOneHint": "지금 떠오르는 생각을 적어보세요.",
+  "recallQuestionTwoLabel": "질문 2",
+  "recallQuestionTwoPrompt": "그때의 감정과 지금의 감정은 어떻게 다른가요?",
+  "recallQuestionTwoHint": "감정의 변화를 적어보세요.",
+  "recallPreviousRecordsTitle": "이 문장에 대한 이전 기록",
+  "recallEmptyHistory": "아직 이 문장에 대한 이전 기록이 없습니다.",
+  "recallSavedMessage": "이 문장에 대한 기록을 저장했습니다.",
+  "recallEmptyReflectionMessage": "질문에 대한 생각을 하나 이상 입력해주세요.",
+  "recallRecordedNow": "방금 전",
+  "recallRecordedAt": "{date} 기록",
+  "@recallRecordedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "weekdayMonday": "월",
+  "weekdayTuesday": "화",
+  "weekdayWednesday": "수",
+  "weekdayThursday": "목",
+  "weekdayFriday": "금",
+  "weekdaySaturday": "토",
+  "weekdaySunday": "일",
+  "weeklyReportSummary": "{count, plural, =0{지난 {days}일간 수집한 문장이 없습니다} other{지난 {days}일간 {count}개의 문장을 수집했습니다.}}",
+  "@weeklyReportSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "relativeYesterdayWithTime": "어제 {time}",
+  "@relativeYesterdayWithTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "relativeDaysAgo": "{days}일 전",
+  "@relativeDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "labelEmotionComfort": "위로",
+  "labelEmotionRelief": "안도",
+  "labelEmotionCalm": "고요함",
+  "labelTopicInsight": "통찰",
+  "labelEmotionMelancholy": "서글픔",
+  "labelEmotionJoy": "환희",
+  "labelTopicReflection": "성찰",
+  "labelTopicTravel": "여행",
+  "labelTopicPhilosophy": "철학",
+  "captureQuoteSnack": "촬영 화면은 다음 단계에서 연결합니다."
+}
