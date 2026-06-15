@@ -44,13 +44,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get homeEmptyAction => 'Catch your first sentence';
 
   @override
-  String get homeEmptyTipTitle => 'Capture faster with OCR';
-
-  @override
-  String get homeEmptyTipBody =>
-      'Add a photo. Select only the sentence area, then review and save the OCR result.';
-
-  @override
   String get homeEmptyFooterQuote => '\"Everything unrecorded is forgotten.\"';
 
   @override

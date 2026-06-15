@@ -24,8 +24,6 @@
   "homeEmptyTitle": "아직 수집한 문장이 없어요",
   "homeEmptyBody": "당신의 마음에 남은 책 속 한 줄을 기록하고 나만의 문장을 간직해보세요.",
   "homeEmptyAction": "첫 문장을 낚아보세요",
-  "homeEmptyTipTitle": "OCR로 빠르게 기록하기",
-  "homeEmptyTipBody": "사진으로 가져온 뒤 문장 영역만 선택하고 OCR 결과를 확인해 저장하세요.",
   "homeEmptyFooterQuote": "\"기록되지 않은 모든 것은 잊혀진다.\"",
   "reminderStatusTitle": "회상 알림",
   "weeklyReportTitle": "이번 주의 사색 리포트",

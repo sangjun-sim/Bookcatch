@@ -158,18 +158,6 @@ abstract class AppLocalizations {
   /// **'첫 문장을 낚아보세요'**
   String get homeEmptyAction;
 
-  /// No description provided for @homeEmptyTipTitle.
-  ///
-  /// In ko, this message translates to:
-  /// **'OCR로 빠르게 기록하기'**
-  String get homeEmptyTipTitle;
-
-  /// No description provided for @homeEmptyTipBody.
-  ///
-  /// In ko, this message translates to:
-  /// **'사진으로 가져온 뒤 문장 영역만 선택하고 OCR 결과를 확인해 저장하세요.'**
-  String get homeEmptyTipBody;
-
   /// No description provided for @homeEmptyFooterQuote.
   ///
   /// In ko, this message translates to:

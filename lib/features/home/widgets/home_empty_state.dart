@@ -47,8 +47,6 @@ class HomeEmptyState extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 48),
-        _EmptyHelpSection(onCaptureQuotePressed: onCaptureQuotePressed),
-        const SizedBox(height: 48),
         Opacity(
           opacity: 0.34,
           child: Column(
@@ -110,101 +108,6 @@ class _EmptyIllustration extends StatelessWidget {
                 ),
               ],
             ),
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class _EmptyHelpSection extends StatelessWidget {
-  const _EmptyHelpSection({this.onCaptureQuotePressed});
-
-  final VoidCallback? onCaptureQuotePressed;
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        DecoratedBox(
-          decoration: BoxDecoration(
-            color: BookcatchColors.surfaceContainerLowest,
-            borderRadius: BorderRadius.circular(16),
-            border: Border.all(color: BookcatchColors.outlineVariant),
-            boxShadow: [
-              BoxShadow(
-                color: BookcatchColors.primary.withValues(alpha: 0.04),
-                blurRadius: 20,
-                offset: const Offset(0, 4),
-              ),
-            ],
-          ),
-          child: _EmptyTipTile(onPressed: onCaptureQuotePressed),
-        ),
-      ],
-    );
-  }
-}
-
-class _EmptyTipTile extends StatelessWidget {
-  const _EmptyTipTile({this.onPressed});
-
-  final VoidCallback? onPressed;
-
-  @override
-  Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context);
-    final theme = Theme.of(context);
-
-    return Material(
-      color: Colors.transparent,
-      child: InkWell(
-        borderRadius: BorderRadius.circular(16),
-        onTap: onPressed,
-        child: Padding(
-          padding: const EdgeInsets.all(20),
-          child: Row(
-            children: [
-              DecoratedBox(
-                decoration: BoxDecoration(
-                  color: BookcatchColors.surfaceContainer,
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                child: const Padding(
-                  padding: EdgeInsets.all(12),
-                  child: Icon(
-                    Icons.document_scanner_outlined,
-                    color: BookcatchColors.primary,
-                  ),
-                ),
-              ),
-              const SizedBox(width: 16),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      l10n.homeEmptyTipTitle,
-                      style: theme.textTheme.labelMedium?.copyWith(
-                        color: BookcatchColors.textPrimary,
-                      ),
-                    ),
-                    const SizedBox(height: 4),
-                    Text(
-                      l10n.homeEmptyTipBody,
-                      style: theme.textTheme.labelSmall?.copyWith(
-                        color: BookcatchColors.onSurfaceVariant,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              const Icon(
-                Icons.chevron_right,
-                color: BookcatchColors.outlineVariant,
-              ),
-            ],
           ),
         ),
       ),

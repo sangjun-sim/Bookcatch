@@ -43,12 +43,6 @@ class AppLocalizationsKo extends AppLocalizations {
   String get homeEmptyAction => '첫 문장을 낚아보세요';
 
   @override
-  String get homeEmptyTipTitle => 'OCR로 빠르게 기록하기';
-
-  @override
-  String get homeEmptyTipBody => '사진으로 가져온 뒤 문장 영역만 선택하고 OCR 결과를 확인해 저장하세요.';
-
-  @override
   String get homeEmptyFooterQuote => '\"기록되지 않은 모든 것은 잊혀진다.\"';
 
   @override
